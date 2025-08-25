@@ -1,0 +1,67 @@
+.student-history-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.student-history-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-size: 18px;
+}
+
+.student-list li span {
+  font-weight: 500;
+  color: #444;
+}
+
+.student-list li .actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.student-list button {
+  padding: 8px 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.student-list button:hover {
+  opacity: 0.9;
+}
+
+.student-list button:first-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.student-list button:last-child {
+  background-color: #007bff;
+  color: white;
+}

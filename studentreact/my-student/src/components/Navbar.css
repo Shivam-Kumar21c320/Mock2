@@ -1,0 +1,46 @@
+.custom-navbar {
+  width: 100%;
+  background: #195caa;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+ 
+/* Button Group */
+.navbar-buttons {
+  display: flex;
+  gap: 40px;
+}
+ 
+/* Individual Button */
+.navbar-btn {
+  padding: 14px 40px;
+  border-radius: 10px;
+  background: #fff;
+  color: #195caa;
+  font-size: 1.17em;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 2px 10px rgba(25,92,170,0.09);
+  transition: background 0.17s, color 0.17s;
+  cursor: pointer;
+}
+.navbar-btn:hover {
+  background: #ffd900;
+  color: #23282c;
+}
+ 
+@media (max-width: 700px) {
+  .custom-navbar {
+    padding: 14px 0;
+  }
+  .navbar-btn {
+    padding: 10px 22px;
+    font-size: 1em;
+  }
+  .navbar-buttons {
+    gap: 16px;
+  }
+}
